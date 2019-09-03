@@ -37,6 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:background="@drawable/background_oval_blue"
                 android:inputType="textPersonName"
                 android:hint="Nombre" />
 
@@ -51,6 +52,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:background="@drawable/background_oval_blue"
                 android:inputType="textPersonName"
                 android:hint="Apellido Paterno" />
 
@@ -65,6 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:background="@drawable/background_oval_blue"
                 android:inputType="textPersonName"
                 android:hint="Apellido Materno" />
 
@@ -79,6 +82,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/gender"
+                android:background="@drawable/background_oval_blue"
                 android:spinnerMode="dropdown" />
 
             <TextView
@@ -92,7 +96,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="dd/mm/YYYY"
+                android:hint="dd/mm/AAAA"
+                android:background="@drawable/background_oval_blue"
                 android:inputType="date" />
 
             <TextView
@@ -105,7 +110,9 @@
                 android:id="@+id/editText5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/background_oval_blue"
                 android:ems="10"
+                android:hint="5555555555"
                 android:inputType="phone" />
 
             <TextView
@@ -119,6 +126,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="ejemplo@mail.com"
+                android:background="@drawable/background_oval_blue"
                 android:inputType="textEmailAddress" />
 
             <TextView
@@ -132,6 +141,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:background="@drawable/background_oval_blue"
                 android:inputType="textPersonName"
                 android:hint="Usuario" />
 

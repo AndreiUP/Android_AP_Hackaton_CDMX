@@ -21,6 +21,7 @@
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/background_oval_blue_strong"
                 android:text="REGISTRO" />
 
             <TextView
@@ -34,7 +35,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:background="@drawable/background_oval_blue"
                 android:hint="Nombre"
+
                 android:inputType="textPersonName"/>
 
             <TextView
@@ -48,6 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:background="@drawable/background_oval_blue"
                 android:inputType="textPersonName"
                 android:hint="Apellido Paterno" />
 
@@ -62,6 +66,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:background="@drawable/background_oval_blue"
                 android:inputType="textPersonName"
                 android:hint="Apellido Materno" />
 
@@ -75,6 +80,7 @@
                 android:id="@+id/spinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/background_oval_blue"
                 android:entries="@array/gender"
                 android:spinnerMode="dropdown" />
 
@@ -89,6 +95,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:background="@drawable/background_oval_blue"
+                android:hint="dd/mm/AAAA"
                 android:inputType="date" />
 
             <TextView
@@ -102,6 +110,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="5555555555"
+                android:background="@drawable/background_oval_blue"
                 android:inputType="phone" />
 
             <TextView
@@ -114,7 +124,9 @@
                 android:id="@+id/editText6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/background_oval_blue"
                 android:ems="10"
+                android:hint="ejemplo@correo.com"
                 android:inputType="textEmailAddress" />
 
             <TextView
@@ -128,6 +140,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:background="@drawable/background_oval_blue"
                 android:inputType="textPersonName"
                 android:hint="Usuario" />
 
@@ -142,6 +155,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="**********"
+                android:background="@drawable/background_oval_blue"
                 android:inputType="textPassword" />
 
             <LinearLayout
@@ -154,6 +169,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/background_oval_red"
                     android:text="Cancelar" />
 
                 <Button
@@ -161,6 +178,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textColor="@color/colorWhite"
+                    android:background="@drawable/background_oval_blue_strong"
                     android:text="Guardar" />
             </LinearLayout>
 
