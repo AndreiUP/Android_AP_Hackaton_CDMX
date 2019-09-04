@@ -21,12 +21,18 @@
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="login" />
+                android:layout_marginBottom="15dp"
+                android:textSize="100px"
+                android:background="@drawable/background_oval_blue_strong"
+                android:textColor="@color/colorWhite"
+                android:textAlignment="center"
+                android:text="Inicio de sesión" />
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
                 android:text="Usuario" />
 
             <EditText
@@ -36,12 +42,16 @@
                 android:ems="10"
                 android:inputType="textPersonName"
                 android:background="@drawable/background_oval_blue"
+                android:layout_marginBottom="15dp"
+                android:padding="7.5dp"
+                android:textColor="@color/colorBlue"
                 android:hint="Usuario" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
                 android:text="Contraseña" />
 
             <EditText
@@ -50,13 +60,17 @@
                 android:layout_height="40dp"
                 android:ems="10"
                 android:background="@drawable/background_oval_blue"
+                android:padding="7.5dp"
                 android:hint="**********"
+                android:textColor="@color/colorBlue"
+                android:layout_marginBottom="15dp"
                 android:inputType="textPassword" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
                 android:text="¿Olvido su contraseña?" />
 
             <LinearLayout
@@ -71,6 +85,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/background_oval_red"
                     android:textColor="@color/colorWhite"
+                    android:layout_margin="10dp"
                     android:text="Salir" />
 
                 <Button
@@ -80,6 +95,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/background_oval_blue_strong"
                     android:textColor="@color/colorWhite"
+                    android:layout_margin="10dp"
                     android:text="Iniciar Sesión" />
             </LinearLayout>
 

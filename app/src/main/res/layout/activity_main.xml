@@ -9,12 +9,12 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="361dp">
+        android:gravity="center">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="632dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7.5dp"
             android:orientation="vertical">
 
             <TextView
@@ -22,6 +22,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/background_oval_blue_strong"
+                android:layout_marginBottom="7.5dp"
+                android:textSize="100px"
+                android:textColor="@color/colorWhite"
+                android:textAlignment="center"
                 android:text="REGISTRO" />
 
             <TextView
@@ -33,11 +37,12 @@
             <EditText
                 android:id="@+id/editText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:ems="10"
                 android:background="@drawable/background_oval_blue"
                 android:hint="Nombre"
-
+                android:layout_height="40dp"
+                android:layout_marginBottom="7.5dp"
+                android:padding="7.5dp"
                 android:inputType="textPersonName"/>
 
             <TextView
@@ -49,10 +54,12 @@
             <EditText
                 android:id="@+id/editText2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:background="@drawable/background_oval_blue"
                 android:inputType="textPersonName"
+                android:layout_marginBottom="7.5dp"
+                android:padding="7.5dp"
                 android:hint="Apellido Paterno" />
 
             <TextView
@@ -64,10 +71,12 @@
             <EditText
                 android:id="@+id/editText3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:background="@drawable/background_oval_blue"
                 android:inputType="textPersonName"
+                android:layout_marginBottom="7.5dp"
+                android:padding="7.5dp"
                 android:hint="Apellido Materno" />
 
             <TextView
@@ -79,9 +88,11 @@
             <Spinner
                 android:id="@+id/spinner"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:background="@drawable/background_oval_blue"
                 android:entries="@array/gender"
+                android:layout_marginBottom="7.5dp"
+                android:padding="7.5dp"
                 android:spinnerMode="dropdown" />
 
             <TextView
@@ -93,10 +104,12 @@
             <EditText
                 android:id="@+id/editText4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:background="@drawable/background_oval_blue"
                 android:hint="dd/mm/AAAA"
+                android:layout_marginBottom="7.5dp"
+                android:padding="7.5dp"
                 android:inputType="date" />
 
             <TextView
@@ -108,10 +121,12 @@
             <EditText
                 android:id="@+id/editText5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:hint="5555555555"
                 android:background="@drawable/background_oval_blue"
+                android:layout_marginBottom="7.5dp"
+                android:padding="7.5dp"
                 android:inputType="phone" />
 
             <TextView
@@ -123,10 +138,12 @@
             <EditText
                 android:id="@+id/editText6"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:background="@drawable/background_oval_blue"
                 android:ems="10"
                 android:hint="ejemplo@correo.com"
+                android:layout_marginBottom="7.5dp"
+                android:padding="7.5dp"
                 android:inputType="textEmailAddress" />
 
             <TextView
@@ -138,10 +155,12 @@
             <EditText
                 android:id="@+id/editText7"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:background="@drawable/background_oval_blue"
                 android:inputType="textPersonName"
+                android:layout_marginBottom="7.5dp"
+                android:padding="7.5dp"
                 android:hint="Usuario" />
 
             <TextView
@@ -153,10 +172,12 @@
             <EditText
                 android:id="@+id/editText8"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:hint="**********"
                 android:background="@drawable/background_oval_blue"
+                android:layout_marginBottom="15dp"
+                android:padding="7.5dp"
                 android:inputType="textPassword" />
 
             <LinearLayout
@@ -171,6 +192,7 @@
                     android:layout_weight="1"
                     android:textColor="@color/colorWhite"
                     android:background="@drawable/background_oval_red"
+                    android:layout_margin="10dp"
                     android:text="Cancelar" />
 
                 <Button
@@ -180,7 +202,8 @@
                     android:layout_weight="1"
                     android:textColor="@color/colorWhite"
                     android:background="@drawable/background_oval_blue_strong"
-                    android:text="Guardar" />
+                    android:layout_margin="10dp"
+                    android:text="Registrar" />
             </LinearLayout>
 
         </LinearLayout>

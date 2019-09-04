@@ -9,59 +9,53 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:gravity="center">
 
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="74dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="174dp"
-            android:layout_marginLeft="174dp"
-            android:layout_marginEnd="163dp"
-            android:layout_marginRight="163dp"
-            android:layout_marginBottom="681dp"
-            android:text="Eventos" />
-
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="314dp"
-            android:layout_marginRight="314dp"
-            android:layout_marginBottom="646dp"
-            android:text="Noviembre" />
-
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="392dp"
-            android:layout_height="47dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="6dp"
-            android:layout_marginRight="6dp"
-            android:layout_marginBottom="584dp"
-            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua." />
-
-        <TextView
-            android:id="@+id/textView16"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="544dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="0dp"
-            android:layout_marginRight="0dp"
-            android:layout_marginBottom="14dp"
-            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Egestas sed sed risus pretium quam vulputate dignissim. Senectus et netus et malesuada fames. In ante metus dictum at tempor commodo ullamcorper. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Diam in arcu cursus euismod quis viverra nibh cras. Ipsum a arcu cursus vitae congue mauris rhoncus. Erat pellentesque adipiscing commodo elit. Accumsan lacus vel facilisis volutpat est velit egestas dui id.  Non sodales neque sodales ut etiam sit amet. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Nullam ac tortor vitae purus faucibus. Iaculis nunc sed augue lacus viverra vitae congue eu. Sed risus ultricies tristique nulla. Est ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Molestie a iaculis at erat pellentesque adipiscing commodo elit. Velit ut tortor pretium viverra suspendisse. Egestas sed sed risus pretium. Quam adipiscing vitae proin sagittis. Duis ut diam quam nulla porttitor massa id neque. Scelerisque viverra mauris in aliquam sem." />
-    </RelativeLayout>
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7.5dp"
+                android:background="@drawable/background_oval_blue_strong"
+                android:text="Eventos"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="100px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="50px"
+                android:textColor="@color/colorBlueLigth"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:text="< Noviembre" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:text="Lorem dolor sit amet, consectetur adipiscing elit\nsed do eiusmod tempor incididunt ut." />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Egestas sed sed risus pretium quam vulputate dignissim. Senectus et netus et malesuada fames. In ante metus dictum at tempor commodo ullamcorper. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Diam in arcu cursus euismod quis viverra nibh cras. Ipsum a arcu cursus vitae congue mauris rhoncus. Erat pellentesque adipiscing commodo elit. Accumsan lacus vel facilisis volutpat est velit egestas dui id.  Non sodales neque sodales ut etiam sit amet. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Nullam ac tortor vitae purus faucibus. Iaculis nunc sed augue lacus viverra vitae congue eu. Sed risus ultricies tristique nulla. Est ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Molestie a iaculis at erat pellentesque adipiscing commodo elit. Velit ut tortor pretium viverra suspendisse. Egestas sed sed risus pretium. Quam adipiscing vitae proin sagittis. Duis ut diam quam nulla porttitor massa id neque. Scelerisque viverra mauris in aliquam sem." />
+        </LinearLayout>
+    </RelativeLayout><![CDATA[">
+
+
+    ]]>
+</RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
