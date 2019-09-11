@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".RegisterActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
                 android:textColor="@color/colorBlueLigth"
                 android:textStyle="bold"
                 android:layout_marginBottom="15dp"
-                android:text="< Noviembre" />
+                android:text=" Noviembre" />
 
             <TextView
                 android:id="@+id/textView15"
@@ -53,9 +53,5 @@
                 android:layout_height="wrap_content"
                 android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam quam nulla porttitor massa id neque aliquam vestibulum morbi. Egestas sed sed risus pretium quam vulputate dignissim. Senectus et netus et malesuada fames. In ante metus dictum at tempor commodo ullamcorper. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Diam in arcu cursus euismod quis viverra nibh cras. Ipsum a arcu cursus vitae congue mauris rhoncus. Erat pellentesque adipiscing commodo elit. Accumsan lacus vel facilisis volutpat est velit egestas dui id.  Non sodales neque sodales ut etiam sit amet. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Nullam ac tortor vitae purus faucibus. Iaculis nunc sed augue lacus viverra vitae congue eu. Sed risus ultricies tristique nulla. Est ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Molestie a iaculis at erat pellentesque adipiscing commodo elit. Velit ut tortor pretium viverra suspendisse. Egestas sed sed risus pretium. Quam adipiscing vitae proin sagittis. Duis ut diam quam nulla porttitor massa id neque. Scelerisque viverra mauris in aliquam sem." />
         </LinearLayout>
-    </RelativeLayout><![CDATA[">
-
-
-    ]]>
-</RelativeLayout>
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
