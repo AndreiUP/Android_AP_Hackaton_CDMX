@@ -16,7 +16,7 @@ import com.google.android.material.navigation.NavigationView;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private Toolbar appbar;
+//    private Toolbar appbar;
     private DrawerLayout drawerLayout;
     private NavigationView navView;
 
@@ -25,11 +25,11 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        appbar = (Toolbar)findViewById(R.id.appbar);
-          setSupportActionBar(appbar);
+        //appbar = (Toolbar)findViewById(R.id.appbar);
+//        setSupportActionBar(appbar);
 
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_nav_menu);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_nav_menu);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         drawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
 
@@ -64,13 +64,6 @@ public class HomeActivity extends AppCompatActivity {
                             case R.id.menu_seccion_1:
                                 fragment = new FragmentInflater();
                                 fragmentTransaction = true;
-                                break;
-
-                            case R.id.menu_opcion_1:
-                                Log.i("NavigationView", "Pulsada opción 1");
-                                break;
-                            case R.id.menu_opcion_2:
-                                Log.i("NavigationView", "Pulsada opción 2");
                                 break;
                         }
 
