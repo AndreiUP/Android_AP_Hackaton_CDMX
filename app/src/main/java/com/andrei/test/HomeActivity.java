@@ -26,7 +26,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         appbar = (Toolbar)findViewById(R.id.appbar);
-         setSupportActionBar(appbar);
+          setSupportActionBar(appbar);
 
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_nav_menu);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
