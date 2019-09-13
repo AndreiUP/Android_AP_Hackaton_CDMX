@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <group android:checkableBehavior="single">
+    <group>
         <item
             android:id="@+id/menu_seccion_1"
-             android:title="INICIO"/>
+            android:title="INICIO"/>
         <item
             android:id="@+id/menu_seccion_2"
-             android:title="string/seccion_2"/>
+            android:title="PERFIL"/>
         <item
             android:id="@+id/menu_seccion_3"
-             android:title="string/seccion_3"/>
+            android:title="STICKERS"/>
+        <item
+            android:id="@+id/menu_seccion_4"
+            android:title="MAPA"/>
+        <item
+            android:id="@+id/menu_seccion_5"
+            android:title="CONFIG."/>
+        <item
+            android:id="@+id/menu_seccion_6"
+            android:title="AYUDA"/>
     </group>
-
-    <item
-        android:id="@+id/navigation_subheader"
-        android:title="string/otras_opciones">
-        <menu>
-            <item
-                android:id="@+id/menu_opcion_1"
-                android:title="string/opcion_1"/>
-            <item
-                android:id="@+id/menu_opcion_2"
-                android:title="string/opcion_2"/>
-        </menu>
-    </item>
 </menu>
